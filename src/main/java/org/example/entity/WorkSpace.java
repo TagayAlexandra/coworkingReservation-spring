@@ -22,6 +22,6 @@ public class WorkSpace {
 
     private BigDecimal price;
 
-    private boolean isAvailable;
+    private boolean available;
 
 }
