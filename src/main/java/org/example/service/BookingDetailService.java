@@ -1,6 +1,7 @@
 package org.example.service;
 
-import org.example.entity.BookDetail;
+import org.example.dto.BookDetailDto;
 
-public interface BookingDetailService extends Service<BookDetail> {
+
+public interface BookingDetailService extends Service<BookDetailDto> {
 }

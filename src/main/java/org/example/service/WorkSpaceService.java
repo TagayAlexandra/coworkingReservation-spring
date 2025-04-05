@@ -1,11 +1,11 @@
 package org.example.service;
 
-import org.example.entity.WorkSpace;
+import org.example.dto.WorkSpaceDto;
 
 import java.util.List;
 
-public interface WorkSpaceService extends Service<WorkSpace> {
-    List<WorkSpace> readAllBookingWorkSpaces();
+public interface WorkSpaceService extends Service<WorkSpaceDto> {
+    List<WorkSpaceDto> readAllBookingWorkSpaces();
 
-    List<WorkSpace> readAllAvailableWorkSpaces();
+    List<WorkSpaceDto> readAllAvailableWorkSpaces();
 }
